@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090914">
+<meta name="description" content="Gava Originator Digital Tech — practical digital solutions for businesses and individuals. Websites, CRM, automation, creative design, data and digital portfolios.">
+<title>Gava Originator Digital Tech | Work Smart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080912;--panel:#111426;--purple:#8068ff;--lime:#d6ff57;--white:#f7f7ff;--muted:#a9acc0;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 82% 12%,rgba(111,70,255,.22),transparent 34%),radial-gradient(ellipse at 5% 75%,rgba(55,100,255,.12),transparent 30%),var(--bg);color:var(--white);font-family:'DM Sans',sans-serif;min-height:100vh;display:grid;place-items:center;padding:32px 18px;overflow-x:hidden}
+.poster{width:min(100%,900px);position:relative;isolation:isolate;border:1px solid rgba(255,255,255,.15);border-radius:28px;overflow:hidden;background:linear-gradient(145deg,rgba(18,20,40,.98),rgba(7,9,19,.98));box-shadow:0 30px 100px rgba(0,0,0,.55),0 0 70px rgba(117,89,255,.12)}
+.poster:before{content:"";position:absolute;inset:-2px;z-index:-1;background:conic-gradient(from 210deg,transparent 0 22%,rgba(128,104,255,.8),transparent 38% 65%,rgba(214,255,87,.5),transparent 80%);filter:blur(28px);opacity:.35}
+.topline{height:7px;background:linear-gradient(90deg,var(--purple),#4a8bff,var(--lime))}
+.inner{padding:clamp(25px,6vw,58px)}
+.brand{display:flex;align-items:center;gap:13px}.mark{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(140deg,#9c83ff,#5b42d9);font:700 30px 'Space Grotesk';box-shadow:0 8px 28px rgba(128,104,255,.35);color:white}.brandname{font:700 clamp(17px,3vw,23px) 'Space Grotesk';letter-spacing:-.7px}.brandname span{color:var(--lime)}.eyebrow{margin-top:5px;font-size:10px;letter-spacing:3px;color:#c4c5d4;font-weight:700}
+.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:28px;align-items:center;padding:clamp(42px,7vw,72px) 0 38px}
+.kicker{display:inline-flex;align-items:center;gap:8px;color:var(--lime);font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 14px var(--lime)}
+h1{font:700 clamp(52px,9vw,94px)/.88 'Space Grotesk';letter-spacing:-6px;margin:20px 0 18px;text-transform:uppercase}h1 span{display:block;color:var(--lime);text-shadow:0 0 32px rgba(214,255,87,.16)}.lead{font-size:clamp(15px,2vw,19px);line-height:1.55;color:#d2d3df;max-width:430px;margin:0}.lead strong{color:white}
+.visual{min-height:270px;position:relative;display:grid;place-items:center}.orb{width:min(100%,300px);aspect-ratio:1;border-radius:50%;position:relative;background:radial-gradient(circle at 35% 28%,#b9aaff 0,#7b5cff 12%,#35217f 37%,#11152f 66%,#080912 72%);box-shadow:inset -22px -24px 45px #050611,0 0 60px rgba(120,91,255,.35);animation:float 6s ease-in-out infinite}.orb:before,.orb:after{content:"";position:absolute;inset:15% -16%;border:2px solid rgba(153,137,255,.85);border-radius:50%;transform:rotate(-28deg);box-shadow:0 0 18px rgba(128,104,255,.55)}.orb:after{inset:28% -23%;transform:rotate(36deg);border-color:rgba(214,255,87,.65)}.orbcore{position:absolute;inset:0;display:grid;place-items:center;font:700 100px 'Space Grotesk';color:#fff;text-shadow:0 8px 35px rgba(0,0,0,.4)}.orbit-label{position:absolute;bottom:4%;right:0;background:rgba(12,15,30,.85);border:1px solid var(--line);border-radius:13px;padding:11px 14px;font-size:11px;letter-spacing:1.6px;color:var(--lime);font-weight:800;backdrop-filter:blur(12px)}
+.services{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0 30px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:18px}.section-head h2{font:700 23px 'Space Grotesk';margin:0}.section-head p{margin:0;color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.service{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:15px;padding:17px 16px;min-height:104px;transition:transform .25s,border-color .25s,background .25s}.service:hover{transform:translateY(-4px);border-color:rgba(214,255,87,.55);background:rgba(128,104,255,.12)}.ico{width:29px;height:29px;border-radius:9px;background:rgba(128,104,255,.2);display:grid;place-items:center;color:var(--lime);font-size:16px;margin-bottom:10px}.service h3{font-size:13px;margin:0 0 4px}.service p{font-size:11px;line-height:1.45;color:var(--muted);margin:0}
+.bottom{display:flex;justify-content:space-between;align-items:center;gap:22px;padding-top:28px}.bottom h2{font:700 clamp(21px,3.5vw,31px)/1.08 'Space Grotesk';margin:0 0 8px}.bottom h2 span{color:var(--lime)}.bottom p{font-size:12px;color:var(--muted);margin:0}.cta{display:inline-flex;align-items:center;gap:13px;background:var(--lime);color:#11131a;text-decoration:none;font-weight:800;padding:16px 20px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 28px rgba(214,255,87,.2);transition:transform .2s,box-shadow .2s}.cta:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(214,255,87,.3)}.arrow{font-size:20px}
+.footer{margin-top:28px;padding-top:17px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;color:#aeb0c0;font-size:11px}.address{display:flex;align-items:center;gap:8px}.pin{color:var(--lime);font-size:16px}.motto{color:#d4d4df;letter-spacing:1px}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-10px) rotate(2deg)}}
+@media(max-width:650px){body{padding:12px}.poster{border-radius:20px}.inner{padding:23px 20px}.hero{grid-template-columns:1fr;gap:8px;padding:42px 0 28px}.visual{min-height:220px;grid-row:1}.orb{width:205px}.orbcore{font-size:76px}h1{letter-spacing:-3.5px;font-size:clamp(55px,15vw,78px);margin-top:16px}.lead{font-size:15px}.section-head{display:block}.section-head p{margin-top:5px}.grid{grid-template-columns:repeat(2,1fr);gap:8px}.service{padding:14px 12px;min-height:100px}.bottom{align-items:flex-start;flex-direction:column}.cta{width:100%;justify-content:center}.footer{align-items:flex-start;flex-direction:column}.motto{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+@media print{body{padding:0;background:#080912}.poster{box-shadow:none;width:100%;border-radius:0}.service:hover,.cta:hover{transform:none}}
+</style>
+</head>
+<body>
+<main class="poster">
+<div class="topline"></div>
+<div class="inner">
+<header class="brand">
+<div class="mark" aria-hidden="true">G.</div>
+<div><div class="brandname">Gava Originator <span>Digital Tech</span></div><div class="eyebrow">DESIGN&nbsp; • &nbsp;DEVELOP&nbsp; • &nbsp;INNOVATE</div></div>
+</header>
+<section class="hero">
+<div>
+<div class="kicker"><span class="dot"></span> Digital solutions, made simple</div>
+<h1>WORK <span>SMART.</span></h1>
+<p class="lead">Turn your ideas into <strong>smart digital solutions.</strong> Practical technology for businesses and individuals ready to move forward.</p>
+</div>
+<div class="visual" aria-label="Abstract glowing Gava digital brand artwork">
+<div class="orb"><div class="orbcore">G</div></div>
+<div class="orbit-label">IDEAS INTO ACTION</div>
+</div>
+</section>
+<section class="services">
+<div class="section-head"><h2>What we can help with</h2><p>One idea. The right digital solution.</p></div>
+<div class="grid">
+<article class="service"><div class="ico">⌘</div><h3>Website Design</h3><p>Modern websites that work on every screen.</p></article>
+<article class="service"><div class="ico">▦</div><h3>CRM Solutions</h3><p>Organise customers, candidates and records.</p></article>
+<article class="service"><div class="ico">↗</div><h3>Automation</h3><p>Make everyday business tasks simpler.</p></article>
+<article class="service"><div class="ico">✳</div><h3>Creative Design</h3><p>Logos, company profiles and digital graphics.</p></article>
+<article class="service"><div class="ico">▤</div><h3>Data & Reports</h3><p>Clear spreadsheets, dashboards and insights.</p></article>
+<article class="service"><div class="ico">◎</div><h3>Digital CVs & Portfolios</h3><p>Showcase your skills, work and experience.</p></article>
+</div>
+</section>
+<section class="bottom">
+<div><h2>Your vision.<br><span>Our technology.</span></h2><p>Let’s make your next move digital.</p></div>
+<a class="cta" href="https://kabelogopane.github.io/Gava-Tech/#project-form">Start a project <span class="arrow">↗</span></a>
+</section>
+<footer class="footer">
+<div class="address"><span class="pin">⌖</span> 51 Main, Marshalltown, Johannesburg</div>
+<div class="motto">YOUR IDEAS. DIGITAL POSSIBILITIES.</div>
+</footer>
+</div>
+</main>
+</body>
+</html>
