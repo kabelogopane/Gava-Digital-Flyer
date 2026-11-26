@@ -42,6 +42,15 @@ h1{font:700 clamp(52px,9vw,94px)/.88 'Space Grotesk';letter-spacing:-6px;margin:
 .credential span small{display:block;color:var(--muted);font-size:8px;letter-spacing:.08em;margin-bottom:2px}
 @media(max-width:650px){.credentials-head{display:block}.credentials-head p{margin-top:5px}.credential-list{grid-template-columns:repeat(2,minmax(0,1fr))}.credential{padding:9px 8px;gap:7px}.credential span{font-size:9px}}
 
+
+.credential b{flex:0 0 32px;width:32px;height:32px;padding:5px;display:grid;place-items:center;border-radius:9px}
+.credential b svg{width:100%;height:100%;display:block}
+.credential .cred-salesforce{background:linear-gradient(145deg,#20a6df,#0876b9);color:#fff}
+.credential .cred-bi{background:linear-gradient(145deg,#ffe88a,#e8b900);color:#594600}
+.credential .cred-platform{background:linear-gradient(145deg,#9b8bff,#5544c8);color:#fff}
+.credential .cred-comptia{background:linear-gradient(145deg,#34445c,#182638);color:#fff}
+.credential .cred-nqf{background:linear-gradient(145deg,#3aaf91,#16745f);color:#fff}
+
 </style>
 </head>
 <body>
@@ -78,12 +87,12 @@ h1{font:700 clamp(52px,9vw,94px)/.88 'Space Grotesk';letter-spacing:-6px;margin:
 <section class="credentials">
 <div class="credentials-head"><h2>Credentials that build confidence</h2><p>Technical knowledge across leading platforms.</p></div>
 <div class="credential-list">
-<div class="credential"><b>SF</b><span><small>SALESFORCE</small>Certified Administrator</span></div>
-<div class="credential"><b>SF</b><span><small>SALESFORCE</small>Salesforce Associate</span></div>
-<div class="credential"><b>BI</b><span><small>MICROSOFT</small>Power BI Data Analyst · PL-300</span></div>
-<div class="credential"><b>PL</b><span><small>MICROSOFT</small>Power Platform · PL-900</span></div>
-<div class="credential"><b>IT</b><span><small>COMPTIA</small>IT Fundamentals+ · ITF+</span></div>
-<div class="credential"><b>NQF</b><span><small>DIGITAL YOUTH ICT ACADEMY</small>System Support · NQF 4</span></div>
+<div class="credential"><b class="cred-salesforce" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M17 34h18a8 8 0 0 0 1-16 12 12 0 0 0-22-2 9 9 0 0 0 3 18Z" fill="currentColor"/></svg></b><span><small>SALESFORCE</small>Certified Administrator</span></div>
+<div class="credential"><b class="cred-salesforce" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M17 34h18a8 8 0 0 0 1-16 12 12 0 0 0-22-2 9 9 0 0 0 3 18Z" fill="currentColor"/><path d="M19 26h14" stroke="#fff" stroke-width="2"/></svg></b><span><small>SALESFORCE</small>Salesforce Associate</span></div>
+<div class="credential"><b class="cred-bi" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 34V23h7v11Zm11 0V14h7v20Zm11 0V8h7v26Z" fill="currentColor"/></svg></b><span><small>MICROSOFT</small>Power BI Data Analyst · PL-300</span></div>
+<div class="credential"><b class="cred-platform" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 7 40 16v16l-16 9L8 32V16Z" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="5" fill="currentColor"/></svg></b><span><small>MICROSOFT</small>Power Platform · PL-900</span></div>
+<div class="credential"><b class="cred-comptia" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="3"/><path d="M31 18a9 9 0 1 0 0 12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></b><span><small>COMPTIA</small>IT Fundamentals+ · ITF+</span></div>
+<div class="credential"><b class="cred-nqf" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m5 18 19-9 19 9-19 9Z" fill="currentColor"/><path d="M13 23v9c6 6 16 6 22 0v-9" fill="none" stroke="currentColor" stroke-width="3"/></svg></b><span><small>DIGITAL YOUTH ICT ACADEMY</small>System Support · NQF 4</span></div>
 </div>
 </section>
 <section class="bottom">
